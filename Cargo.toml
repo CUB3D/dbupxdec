@@ -1,0 +1,11 @@
+[package]
+name = "dbupxdec"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust-lzo = "=0.6.2"
+aes = "=0.8.4"
+parse = { git = "https://github.com/CUB3D/parse-rs", rev = "5f2c7befbc473706dbd3a229d356b0a5be504b41", features = ["alloc"] }
+anyhow = "=1.0.104"
+clap = { version = "=4.6.7", features = ["derive"] }
